@@ -28,6 +28,21 @@ h3 {
   font-size: 15px;
 }
 
+h4 {
+  font-weight: lighter;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  font-weight: lighter;
+  font-size: 11px;
+  color: #888888;
+  margin: 0;
+  padding: 0;
+}
+
 p {
   font-size: 11px;
   color: #888888;
@@ -35,7 +50,7 @@ p {
 
 h2 {
   font-size: 16px;
-  line-height: 12px;
+  line-height: 18px;
   font-weight: bold;
 }
 
@@ -155,6 +170,7 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   border-top: solid 1px #cacaca;
+  margin-bottom: 40px;
 }
 
 .puff-box {
@@ -165,7 +181,7 @@ img {
 }
 
 .inner {
-  margin: 16px;
+  margin: 20px;
 }
 
 .image-box {
@@ -174,9 +190,49 @@ img {
 
 .copy-box {
   width: 288px;
-  height: 255px;
+  height: 220px;
 }
 
-img {
+.writer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 45px;
+  justify-content: space-between;
+}
+
+.writer-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.bookmark {
+  width: 10px;
+}
+
+#writer-image-2 {
+  background: url(/images/writer-2.jpeg) no-repeat center center;
+  background-size: cover;
+  object-fit: contain;
+}
+
+#image1 {
+  background: url(/images/medium-image-puff-1.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+#image2 {
+  background: url(/images/medium-image-puff-2.png) no-repeat center center;
+  background-size: cover;
+}
+
+#image3 {
+  background: url(/images/medium-image-puff-4.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+#image4 {
+  background: url(/images/medium-image-puff-3.png) no-repeat center center;
   background-size: cover;
 }
