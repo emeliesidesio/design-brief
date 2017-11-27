@@ -197,7 +197,6 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 45px;
   justify-content: space-between;
 }
 
@@ -213,6 +212,24 @@ img {
 
 #writer-image-2 {
   background: url(/images/writer-2.jpeg) no-repeat center center;
+  background-size: cover;
+  object-fit: contain;
+}
+
+#writer-image-1 {
+  background: url(/images/writer-1.png) no-repeat center center;
+  background-size: cover;
+  object-fit: contain;
+}
+
+#writer-image-3 {
+  background: url(/images/writer-3.jpeg) no-repeat center center;
+  background-size: cover;
+  object-fit: contain;
+}
+
+#writer-image-4 {
+  background: url(/images/writer-4.jpeg) no-repeat center center;
   background-size: cover;
   object-fit: contain;
 }

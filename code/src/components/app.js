@@ -53,6 +53,14 @@ class App extends React.Component {
                 <div className="inner">
                   <h2>The Boy Who Tamed the Sea</h2>
                   <p>At 5:30 am, on a morning I can handle it, I'll slip out of the dark mouth of my covers and creep through the silver lig...</p>
+                  <div className="writer">
+                    <div className="writer-image" id="writer-image-1"></div>
+                    <div className="writer-byline">
+                      <h4>Carl Moore</h4>
+                      <h5>Oct 27, 8 min read</h5>
+                    </div>
+                    <div className="bookmark"><img src="/images/bookmark.png" alt="bookmark"></img></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -81,6 +89,14 @@ class App extends React.Component {
                 <div className="inner">
                   <h2>The March of the Losers</h2>
                   <p>Around the world, the victims are becoming the abusers, and Donald Trump is their king.</p>
+                  <div className="writer">
+                    <div className="writer-image" id="writer-image-3"></div>
+                    <div className="writer-byline">
+                      <h4>Henrt Wismayer</h4>
+                      <h5>Nov 10, 8 min read</h5>
+                    </div>
+                    <div className="bookmark"><img src="/images/bookmark.png" alt="bookmark"></img></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -91,6 +107,14 @@ class App extends React.Component {
                 <div className="inner">
                   <h2>The Burning Season</h2>
                   <p>You cannot save everything when the fires come to Northern California.</p>
+                  <div className="writer">
+                    <div className="writer-image" id="writer-image-4"></div>
+                    <div className="writer-byline">
+                      <h4>Lindsey Smith</h4>
+                      <h5>Nov 9, 31 min read</h5>
+                    </div>
+                    <div className="bookmark"><img src="/images/bookmark.png" alt="bookmark"></img></div>
+                  </div>
                 </div>
               </div>
             </div>
