@@ -4,6 +4,7 @@ class App extends React.Component {
 
   render() {
     return (
+
       <div className="App">
 
           <nav>
@@ -27,37 +28,32 @@ class App extends React.Component {
         <div className="content">
 
           <div className="hero-box">
-
             <div className="hero-copy">
               <div className="inner-margin">
                 <h1>Interesting ideas that set your mind in motion.</h1>
                 <h3>Hear directly from the people who know it best. From tech to politics to creativity and more — whatever your interest, we've got you covered.</h3>
               </div>
-
-              <div className="CTA-button CTA-button-1">Get started</div>
-              <div className="CTA-button CTA-button-2">Learn more</div>
-
+            <div className="CTA-button CTA-button-1">Get started</div>
+            <div className="CTA-button CTA-button-2">Learn more</div>
             </div>
-
             <div className="hero-image">
               <img src="/images/medium-image.png" alt="Hero-bild"></img>
             </div>
-
           </div>
 
-          <div className="boxes">
+          <div className="content-boxes">
 
             <div className="puff-box">
               <div className="image-box" id="image1"></div>
               <div className="copy-box">
                 <div className="inner">
                   <h2>The Boy Who Tamed the Sea</h2>
-                  <p>At 5:30 am, on a morning I can handle it, I'll slip out of the dark mouth of my covers and creep through the silver lig...</p>
+                  <p className="paragraph">At 5:30 am, on a morning I can handle it, I'll slip out of the dark mouth of my covers and creep through the silver lig...</p>
                   <div className="writer">
                     <div className="writer-image" id="writer-image-1"></div>
                     <div className="writer-byline">
                       <h4>Carl Moore</h4>
-                      <h5>Oct 27, 8 min read</h5>
+                      <p>Oct 27, 8 min read</p>
                     </div>
                     <div className="bookmark"><img src="/images/bookmark.png" alt="bookmark"></img></div>
                   </div>
@@ -75,7 +71,7 @@ class App extends React.Component {
                     <div className="writer-image" id="writer-image-2"></div>
                     <div className="writer-byline">
                       <h4>Ben Bland</h4>
-                      <h5>Nov 1, 7 min read</h5>
+                      <p>Nov 1, 7 min read</p>
                     </div>
                     <div className="bookmark"><img src="/images/bookmark.png" alt="bookmark"></img></div>
                   </div>
@@ -93,7 +89,7 @@ class App extends React.Component {
                     <div className="writer-image" id="writer-image-3"></div>
                     <div className="writer-byline">
                       <h4>Henrt Wismayer</h4>
-                      <h5>Nov 10, 8 min read</h5>
+                      <p>Nov 10, 8 min read</p>
                     </div>
                     <div className="bookmark"><img src="/images/bookmark.png" alt="bookmark"></img></div>
                   </div>
@@ -111,7 +107,7 @@ class App extends React.Component {
                     <div className="writer-image" id="writer-image-4"></div>
                     <div className="writer-byline">
                       <h4>Lindsey Smith</h4>
-                      <h5>Nov 9, 31 min read</h5>
+                      <p>Nov 9, 31 min read</p>
                     </div>
                     <div className="bookmark"><img src="/images/bookmark.png" alt="bookmark"></img></div>
                   </div>
