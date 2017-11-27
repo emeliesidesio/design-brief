@@ -6,6 +6,8 @@ class App extends React.Component {
     return (
       <div className="App">
         Find me in src/app.js!
+        <h1>Hello</h1>
+        <h2>Hej igen</h2>
       </div>
     )
   }
