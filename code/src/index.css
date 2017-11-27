@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -16,10 +20,17 @@ h1 {
   font-weight: lighter;
 }
 
-p {
+h3 {
   padding-top: 25px;
   padding-bottom: 40px;
   margin: 0;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+p {
+  font-size: 11px;
+  color: #888888;
 }
 
 h2 {
@@ -39,9 +50,9 @@ a:hover {
 }
 
 hr {
-  border-width: 0.7px;
-  padding: 0;
-  margin: 0;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #cacaca;
 }
 
 /* NAVIGATION */
@@ -82,15 +93,14 @@ li {
   color: black;
 }
 
-/* CONTENTS BLOCKS */
-
-.content-blocks {
+.content {
   margin-right: 220px;
   margin-left: 220px;
 }
 
+/* HERO BLOCKS */
+
 .hero-box {
-  height: 340px;
   display: flex;
 }
 
@@ -109,7 +119,6 @@ li {
   align-items: center;
 }
 
-
 img {
   width: 100%;
 }
@@ -124,6 +133,7 @@ img {
   text-align: center;
   font-size: 12px;
   letter-spacing: 0.5px;
+  margin-bottom: 40px;
 }
 
 .CTA-button-1 {
@@ -136,4 +146,37 @@ img {
 .CTA-button-2 {
   background: none;
   color: black;
+}
+
+/* CONTENT BLOCKS */
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: solid 1px #cacaca;
+}
+
+.puff-box {
+  width: 49%;
+  display: flex;
+  border: solid 1px #cacaca;
+  margin-top: 20px;
+}
+
+.inner {
+  margin: 16px;
+}
+
+.image-box {
+  width: 200px;
+}
+
+.copy-box {
+  width: 288px;
+  height: 255px;
+}
+
+img {
+  background-size: cover;
 }

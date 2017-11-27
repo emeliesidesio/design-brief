@@ -24,14 +24,15 @@ class App extends React.Component {
 
         <hr></hr>
 
-        <div className="content-blocks">
+        <div className="content">
 
           <div className="hero-box">
 
             <div className="hero-copy">
+
               <div className="inner-margin">
                 <h1>Interesting ideas that set your mind in motion.</h1>
-                <p>Hear directly from the people who know it best. From tech to politics to creativity and more — whatever your interest, we've got you covered.</p>
+                <h3>Hear directly from the people who know it best. From tech to politics to creativity and more — whatever your interest, we've got you covered.</h3>
               </div>
 
               <div className="CTA-button CTA-button-1">
@@ -41,6 +42,7 @@ class App extends React.Component {
               <div className="CTA-button CTA-button-2">
                 Learn more
               </div>
+
             </div>
 
             <div className="hero-image">
@@ -49,7 +51,36 @@ class App extends React.Component {
 
           </div>
 
-          <hr></hr>
+          <div className="boxes">
+
+            <div className="puff-box">
+              <div className="image-box">
+                <img src="/images/medium-image-puff-1.jpeg" alt="Boy"></img>
+              </div>
+              <div className="copy-box">
+                <div className="inner">
+                  <h2>The Boy Who Tamed the Sea</h2>
+                  <p>At 5:30 am, on a morning I can handle it, I'll slip out of the dark mouth of my covers and creep through the silver lig...</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="puff-box">
+              <div className="image-box"></div>
+              <div className="copy-box"></div>
+            </div>
+
+            <div className="puff-box">
+              <div className="image-box"></div>
+              <div className="copy-box"></div>
+            </div>
+
+            <div className="puff-box">
+              <div className="image-box"></div>
+              <div className="copy-box"></div>
+            </div>
+
+          </div>
 
         </div>
 
