@@ -6,8 +6,6 @@ class App extends React.Component {
     return (
       <div className="App">
 
-        <header>
-
           <nav>
             <ul>
               <li><a href="#top" className="active">Home</a></li>
@@ -20,21 +18,43 @@ class App extends React.Component {
               <li><a href="#top">Popular on Medium</a></li>
               <li><a href="#top">Politics</a></li>
               <li><a href="#top">More</a></li>
-              <li><div className="button">Get started</div></li>
+              <li><div className="nav-button">Get started</div></li>
             </ul>
           </nav>
-
-        </header>
 
         <hr></hr>
 
         <div className="content-blocks">
 
-          <div className="hero-box"></div>
+          <div className="hero-box">
+
+            <div className="hero-copy">
+              <div className="inner-margin">
+                <h1>Interesting ideas that set your mind in motion.</h1>
+                <p>Hear directly from the people who know it best. From tech to politics to creativity and more — whatever your interest, we've got you covered.</p>
+              </div>
+
+              <div className="CTA-button CTA-button-1">
+                Get started
+              </div>
+
+              <div className="CTA-button CTA-button-2">
+                Learn more
+              </div>
+            </div>
+
+            <div className="hero-image">
+              <img src="/images/medium-image.png" alt="Hero-bild"></img>
+            </div>
+
+          </div>
+
+          <hr></hr>
 
         </div>
 
-      </div>
+
+    </div>
     )
   }
 
