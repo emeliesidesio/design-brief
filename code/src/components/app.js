@@ -37,7 +37,7 @@ class App extends React.Component {
             <div className="CTA-button CTA-button-2">Learn more</div>
             </div>
             <div className="hero-image">
-              <img src="/images/medium-image.png" alt="Hero-bild"></img>
+              <img src="/medium-image.png" alt="Hero-bild"></img>
             </div>
           </div>
 
@@ -55,7 +55,7 @@ class App extends React.Component {
                       <h4>Carl Moore</h4>
                       <p>Oct 27, 8 min read</p>
                     </div>
-                    <div className="bookmark"><img src="/images/bookmark.png" alt="bookmark"></img></div>
+                    <div className="bookmark"><img src="/bookmark.png" alt="bookmark"></img></div>
                   </div>
                 </div>
               </div>
@@ -73,7 +73,7 @@ class App extends React.Component {
                       <h4>Ben Bland</h4>
                       <p>Nov 1, 7 min read</p>
                     </div>
-                    <div className="bookmark"><img src="/images/bookmark.png" alt="bookmark"></img></div>
+                    <div className="bookmark"><img src="/bookmark.png" alt="bookmark"></img></div>
                   </div>
                 </div>
               </div>
@@ -91,7 +91,7 @@ class App extends React.Component {
                       <h4>Henrt Wismayer</h4>
                       <p>Nov 10, 8 min read</p>
                     </div>
-                    <div className="bookmark"><img src="/images/bookmark.png" alt="bookmark"></img></div>
+                    <div className="bookmark"><img src="/bookmark.png" alt="bookmark"></img></div>
                   </div>
                 </div>
               </div>
@@ -109,7 +109,7 @@ class App extends React.Component {
                       <h4>Lindsey Smith</h4>
                       <p>Nov 9, 31 min read</p>
                     </div>
-                    <div className="bookmark"><img src="/images/bookmark.png" alt="bookmark"></img></div>
+                    <div className="bookmark"><img src="/bookmark.png" alt="bookmark"></img></div>
                   </div>
                 </div>
               </div>

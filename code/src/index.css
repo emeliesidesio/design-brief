@@ -226,45 +226,45 @@ img {
 /* IMAGES */
 
 #writer-image-2 {
-  background: url(/images/writer-2.jpeg) no-repeat center center;
+  background: url(/writer-2.jpeg) no-repeat center center;
   background-size: cover;
   object-fit: contain;
 }
 
 #writer-image-1 {
-  background: url(/images/writer-1.png) no-repeat center center;
+  background: url(/writer-1.png) no-repeat center center;
   background-size: cover;
   object-fit: contain;
 }
 
 #writer-image-3 {
-  background: url(/images/writer-3.jpeg) no-repeat center center;
+  background: url(/writer-3.jpeg) no-repeat center center;
   background-size: cover;
   object-fit: contain;
 }
 
 #writer-image-4 {
-  background: url(/images/writer-4.jpeg) no-repeat center center;
+  background: url(/writer-4.jpeg) no-repeat center center;
   background-size: cover;
   object-fit: contain;
 }
 
 #image1 {
-  background: url(/images/medium-image-puff-1.jpeg) no-repeat center center;
+  background: url(/medium-image-puff-1.jpeg) no-repeat center center;
   background-size: cover;
 }
 
 #image2 {
-  background: url(/images/medium-image-puff-2.png) no-repeat center center;
+  background: url(/medium-image-puff-2.png) no-repeat center center;
   background-size: cover;
 }
 
 #image3 {
-  background: url(/images/medium-image-puff-4.jpeg) no-repeat center center;
+  background: url(/medium-image-puff-4.jpeg) no-repeat center center;
   background-size: cover;
 }
 
 #image4 {
-  background: url(/images/medium-image-puff-3.png) no-repeat center center;
+  background: url(/medium-image-puff-3.png) no-repeat center center;
   background-size: cover;
 }
