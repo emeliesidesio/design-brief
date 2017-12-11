@@ -49,7 +49,7 @@ class App extends React.Component {
                 <div className="inner">
                   <h2>The Boy Who Tamed the Sea</h2>
                   <p className="paragraph">At 5:30 am, on a morning I can handle it, I'll slip out of the dark mouth of my covers and creep through the silver lig...</p>
-                  <div className="writer">
+                  <div className="writer first">
                     <div className="writer-image" id="writer-image-1"></div>
                     <div className="writer-byline">
                       <h4>Carl Moore</h4>
@@ -67,7 +67,7 @@ class App extends React.Component {
                 <div className="inner">
                   <h2>The Role of Human Emotions in the Future of Transport</h2>
                   <p>Getting from A to B is about to feel very different.</p>
-                  <div className="writer">
+                  <div className="writer second">
                     <div className="writer-image" id="writer-image-2"></div>
                     <div className="writer-byline">
                       <h4>Ben Bland</h4>
@@ -85,7 +85,7 @@ class App extends React.Component {
                 <div className="inner">
                   <h2>The March of the Losers</h2>
                   <p>Around the world, the victims are becoming the abusers, and Donald Trump is their king.</p>
-                  <div className="writer">
+                  <div className="writer third">
                     <div className="writer-image" id="writer-image-3"></div>
                     <div className="writer-byline">
                       <h4>Henrt Wismayer</h4>
@@ -103,7 +103,7 @@ class App extends React.Component {
                 <div className="inner">
                   <h2>The Burning Season</h2>
                   <p>You cannot save everything when the fires come to Northern California.</p>
-                  <div className="writer">
+                  <div className="writer fourth">
                     <div className="writer-image" id="writer-image-4"></div>
                     <div className="writer-byline">
                       <h4>Lindsey Smith</h4>
