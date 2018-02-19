@@ -175,6 +175,8 @@ img {
 
 .image-box {
   width: 200px;
+  background-size: cover;
+  background-position: center center;
 }
 
 .copy-box {
@@ -213,6 +215,7 @@ img {
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  background-size: cover;
 }
 
 .bookmark {
@@ -221,50 +224,4 @@ img {
 
 .paragraph {
   flex-grow: 1;
-}
-
-/* IMAGES */
-
-#writer-image-2 {
-  background: url(/writer-2.jpeg) no-repeat center center;
-  background-size: cover;
-  object-fit: contain;
-}
-
-#writer-image-1 {
-  background: url(/writer-1.png) no-repeat center center;
-  background-size: cover;
-  object-fit: contain;
-}
-
-#writer-image-3 {
-  background: url(/writer-3.jpeg) no-repeat center center;
-  background-size: cover;
-  object-fit: contain;
-}
-
-#writer-image-4 {
-  background: url(/writer-4.jpeg) no-repeat center center;
-  background-size: cover;
-  object-fit: contain;
-}
-
-#image1 {
-  background: url(/medium-image-puff-1.jpeg) no-repeat center center;
-  background-size: cover;
-}
-
-#image2 {
-  background: url(/medium-image-puff-2.png) no-repeat center center;
-  background-size: cover;
-}
-
-#image3 {
-  background: url(/medium-image-puff-4.jpeg) no-repeat center center;
-  background-size: cover;
-}
-
-#image4 {
-  background: url(/medium-image-puff-3.png) no-repeat center center;
-  background-size: cover;
 }

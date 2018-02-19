@@ -1,5 +1,14 @@
 import React from "react"
-import heroimg from "/assets/medium-image.png"
+import heroimg from "./medium-image.png"
+import puff1 from "./medium-image-puff-1.jpeg"
+import puff2 from "./medium-image-puff-2.png"
+import puff3 from "./medium-image-puff-3.png"
+import puff4 from "./medium-image-puff-4.jpeg"
+import writer1 from "./writer-1.png"
+import writer2 from "./writer-2.jpeg"
+import writer3 from "./writer-3.jpeg"
+import writer4 from "./writer-4.jpeg"
+import bookmark from "./bookmark.png"
 
 class App extends React.Component {
 
@@ -48,43 +57,43 @@ class App extends React.Component {
           <div className="content-boxes">
 
             <div className="puff-box">
-              <div className="image-box" id="image1" />
+              <div className="image-box" style={{ backgroundImage: `url(${puff1})` }} />
               <div className="copy-box">
                 <div className="inner">
                   <h2>The Boy Who Tamed the Sea</h2>
                   <p className="paragraph">At 5:30 am, on a morning I can handle it, I&lsquo;ll slip out of the dark mouth of my covers and creep through the silver lig...</p>
                   <div className="writer first">
-                    <div className="writer-image" id="writer-image-1" />
+                    <div className="writer-image" style={{ backgroundImage: `url(${writer1})` }} />
                     <div className="writer-byline">
                       <h4>Carl Moore</h4>
                       <p>Oct 27, 8 min read</p>
                     </div>
-                    <div className="bookmark"><img src="/bookmark.png" alt="bookmark" /></div>
+                    <div className="bookmark"><img src={bookmark} alt="bookmark" /></div>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="puff-box">
-              <div className="image-box" id="image2" />
+              <div className="image-box" style={{ backgroundImage: `url(${puff2})` }} />
               <div className="copy-box">
                 <div className="inner">
                   <h2>The Role of Human Emotions in the Future of Transport</h2>
                   <p>Getting from A to B is about to feel very different.</p>
                   <div className="writer second">
-                    <div className="writer-image" id="writer-image-2" />
+                    <div className="writer-image" style={{ backgroundImage: `url(${writer2})` }} />
                     <div className="writer-byline">
                       <h4>Ben Bland</h4>
                       <p>Nov 1, 7 min read</p>
                     </div>
-                    <div className="bookmark"><img src="/bookmark.png" alt="bookmark" /></div>
+                    <div className="bookmark"><img src={bookmark} alt="bookmark" /></div>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="puff-box">
-              <div className="image-box" id="image3" />
+              <div className="image-box" style={{ backgroundImage: `url(${puff3})` }} />
               <div className="copy-box">
                 <div className="inner">
                   <h2>The March of the Losers</h2>
@@ -92,30 +101,30 @@ class App extends React.Component {
                     and Donald Trump is their king.
                   </p>
                   <div className="writer third">
-                    <div className="writer-image" id="writer-image-3" />
+                    <div className="writer-image" style={{ backgroundImage: `url(${writer3})` }} />
                     <div className="writer-byline">
                       <h4>Henrt Wismayer</h4>
                       <p>Nov 10, 8 min read</p>
                     </div>
-                    <div className="bookmark"><img src="/bookmark.png" alt="bookmark" /></div>
+                    <div className="bookmark"><img src={bookmark} alt="bookmark" /></div>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="puff-box">
-              <div className="image-box" id="image4" />
+              <div className="image-box" style={{ backgroundImage: `url(${puff4})` }} />
               <div className="copy-box">
                 <div className="inner">
                   <h2>The Burning Season</h2>
                   <p>You cannot save everything when the fires come to Northern California.</p>
                   <div className="writer fourth">
-                    <div className="writer-image" id="writer-image-4" />
+                    <div className="writer-image" style={{ backgroundImage: `url(${writer4})` }} />
                     <div className="writer-byline">
                       <h4>Lindsey Smith</h4>
                       <p>Nov 9, 31 min read</p>
                     </div>
-                    <div className="bookmark"><img src="/bookmark.png" alt="bookmark" /></div>
+                    <div className="bookmark"><img src={bookmark} alt="bookmark" /></div>
                   </div>
                 </div>
               </div>
